@@ -19,8 +19,7 @@ class Paddle {
     moveup(){
 
         this.y -= this.speed;
-        console.log(this.y);
-        console.log(this.speed);
+        
         if (this.y < 0) {
             this.y = 0;
         }

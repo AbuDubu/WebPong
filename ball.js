@@ -4,8 +4,8 @@ class Ball {
         this.y = y;
         this.radius = radius;
         this.color = color;
-        this.dx = 2;
-        this.dy = 2;
+        this.dx = 3;
+        this.dy = 3;
     }
     
     draw(ctx) {
@@ -39,7 +39,5 @@ class Ball {
     reset(canvasWidth, canvasHeight){
         this.x = canvasWidth / 2;
         this.y = canvasHeight / 2;
-        this.dx = 1;
-        this.dy = 1;
     }
 }
